@@ -1,0 +1,123 @@
+@import url(https://fonts.google.com/share?selection.family=Open+Sans:ital,wght@0,300..800;1,300..800);
+
+body {
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/img/co.bkbimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name {
+  color: wheat;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: whitesmoke;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.login-a:active,
+.login-a:visited {
+  text-decoration: 3px white;
+}
+
+.login-a:link {
+  color: white;
+  padding: 9px 25px;
+  border-radius: 7px;
+  background-color: rgb(15, 155, 83);
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  text-decoration: underline 3px lightblue;
+  color: whitesmoke;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+.login {
+  float: right;
+  padding: 50px;
+  background-color: beige;
+  /* /* margin-right: 3px; */
+  /* height: auto; */
+  /* position: relative; */
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+button {
+  width: 200px;
+  background-color: lightgreen;
+  border-radius: 7px;
+  padding: 8px 25px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.center {
+  color: white;
+  padding: 30px 100px 55px;
+  margin-right: auto;
+}
+
+.container {
+  padding: 65px 200px;
+  background-color: grey;
+  height: 300px;
+  overflow: hidden;
+}
+
+.signup-a:link {
+  color: white;
+  padding: 9px 25px;
+  border-radius: 7px;
+  background-color: darkslategray;
+  text-decoration: none;
+}
+
+.signup-a:active,
+.signup-a:visited {
+  text-decoration: 3px;
+  color: white;
+}
+
+.choose {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 65px;
+  /* width: 8px; */
+}
+
+.nowrap {
+  white-space: nowrap;
+}
